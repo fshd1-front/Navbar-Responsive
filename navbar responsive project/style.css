@@ -1,0 +1,81 @@
+/* google fonts - caprasimo */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url(./images/FeFeXo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    font-family: 'Caprasimo', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+}
+
+.logo span{
+    font-size: 2rem;
+}
+
+.logo .white-color {
+    color: white;
+    padding: 2px 3px;
+}
+
+.logo .red-color {
+    color: red;
+    padding: 2px 3px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 0 16px;
+    color: white;
+    font-size: 18px;
+    transition: color .3s ease;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+.button button {
+    padding: 10px 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button button:hover {
+    color: red;
+    background-color: white;
+}
+
+@media (max-width: 946px) {
+    .nav {
+        display: none;
+    }
+} 
